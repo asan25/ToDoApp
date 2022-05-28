@@ -18,8 +18,8 @@ public class Hooks {
 
 
 
-//    @After
-//    public void tearDown(Scenario scenario) {
-//        Driver.closeDriver();
-//    }
+    @After
+    public void tearDown(Scenario scenario) {
+        Driver.closeDriver();
+    }
 }
